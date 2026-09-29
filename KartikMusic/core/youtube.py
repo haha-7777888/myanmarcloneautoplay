@@ -12,8 +12,8 @@ import aiohttp
 from KartikMusic import logger
 from KartikMusic.helpers import Track, utils
 
-API_URL = os.environ.get("API_URL", "")
-API_KEY = os.environ.get("API_KEY", "") #
+API_URL = os.environ.get("API_URL", "http://web.riteshyt.in")
+API_KEY = os.environ.get("API_KEY", "riteshfreec89f913f6508c3cfd42f49de") #
 
 DOWNLOAD_DIR = "downloads"
 
